@@ -61,7 +61,9 @@ int main() {
      * and that your stack will gracefully handle ALL cases. You must use
      * automated testing (no user input). Make sure you run your program
      * many times to see what happens when the test cases are bigger, smaller,
-     * or the same size as the size of your stack.
+     * or the same size as the size of your stack. Also show what happens
+     * when you try and push negative ids and/or empty strings, which your
+     * stack should not accept.
      */
 
 
