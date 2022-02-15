@@ -32,7 +32,7 @@ private:
     // do not modify them or add any other attributes
     int top;
     int size;
-    Data *stack;
+    Data **stack;
 };
 
 #endif //STACK_H
