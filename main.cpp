@@ -24,8 +24,11 @@ int main(int argc, char **argv) {
     
     /* ***************************************************************
      * Use the number passed in from the command line and declare a stack
-     * that uses that number as the size of the stack.
+     * that uses that number as the size of the stack. NOTE: Make sure
+     * your stack ALSO checks the number passed in to it. You cannot rely
+     * on main checking the number first. This will be tested during grading.
      * ***************************************************************/
+
     
     /* ***************************************************************
      * Throughly test your stack. You must perform an exhaustive series
