@@ -26,7 +26,14 @@ int main(int argc, char **argv) {
      * Use the number passed in from the command line and declare a stack
      * that uses that number as the size of the stack. NOTE: Make sure
      * your stack ALSO checks the number passed in to it. You cannot rely
-     * on main checking the number first. This will be tested during grading.
+     * on main checking the number first, each part of every program and
+     * ADT is always responsible for it's own error checking. Main must
+     * check the user gave it a good number. The stack must check main()
+     * gave it a good number. This is proper error checking, no part of
+     * any program can assume it's caller is behaving correctly. To do this,
+     * try passing -1 or 0 or some other "bad" number to the stack from
+     * main and make sure your stack rejects it, or defaults to some
+     * pre-defined default value. This will be tested during grading.
      * ***************************************************************/
 
     
@@ -60,7 +67,7 @@ int main(int argc, char **argv) {
      * substantially reduced grade, up to and including a zero.
      * ***************************************************************/
     
-    // WHEN YOU SUBMIT, DELETE ALL INSTRUCTIONAL COMMENTS
+    // WHEN YOU SUBMIT, DELETE ALL INSTRUCTIONAL COMMENTS!
     
     return 0;
 }
