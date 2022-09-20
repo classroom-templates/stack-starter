@@ -33,6 +33,8 @@ private:
     int top;
     int size;
     Data **stack;
+    // notice stack is a pointer to a pointer. That means if you do
+    // a single array allocation, you will get an array of pointers
 };
 
 #endif //STACK_H
