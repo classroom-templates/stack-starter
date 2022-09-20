@@ -13,10 +13,9 @@ int main(int argc, char **argv) {
     /* ***************************************************************
      * First get your arguments from the command line. Your program must
      * accept one and only one argument not including the program name
-     * itself. That argument must be an integer between 2 and any
-     * number (i.e. >= 2). If anything else is entered in any way,
-     * terminate the program with a suitable error message telling the
-     * user how to use your program correctly.
+     * itself. That argument must be an integer. If anything else is entered
+     * in any way, terminate the program with a suitable error message
+     * telling the user how to use your program correctly.
      * 
      * Remember, you may not use more than one return, even in main()
      * and you may not use exit() or anything like that.
@@ -25,10 +24,10 @@ int main(int argc, char **argv) {
     /* ***************************************************************
      * Use the number passed in from the command line and declare a stack
      * that uses that number as the size of the stack. NOTE: Make sure
-     * your stack ALSO checks the number passed in to it. You cannot rely
+     * your stack checks the number passed in to it. You cannot rely
      * on main checking the number first, each part of every program and
      * ADT is always responsible for it's own error checking. Main must
-     * check the user gave it a good number. The stack must check main()
+     * check the user gave it an int. The stack must check main()
      * gave it a good number. This is proper error checking, no part of
      * any program can assume it's caller is behaving correctly. To do this,
      * try passing -1 or 0 or some other "bad" number to the stack from
@@ -67,7 +66,7 @@ int main(int argc, char **argv) {
      * substantially reduced grade, up to and including a zero.
      * ***************************************************************/
     
-    // WHEN YOU SUBMIT, DELETE ALL INSTRUCTIONAL COMMENTS!
+    // WHEN YOU SUBMIT, DELETE ALL THESE INSTRUCTIONALCOMMENTS
     
     return 0;
 }
